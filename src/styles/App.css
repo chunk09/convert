@@ -1,0 +1,54 @@
+
+
+.title {
+    display: flex;
+    width: 70%;
+    text-align: center;
+    padding: 1%;
+    color: rgba(0, 0, 0, 0.664);
+    flex-direction: column;
+    align-items: center;
+    /* font-size: 1.2rem; */
+    /* border-bottom: 1px solid gray; */
+    font-weight: bolder;
+    /* background-color: white; */
+    background-color: rgb(243, 247, 255);
+    border-radius: 0 0 20px 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+/* .title-background {
+    width: 20%;
+    background-color: rgb(234, 236, 240);
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(170, 170, 170);
+} */
+
+.list {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5%;
+}
+
+.list button {
+    width: 20%;
+    padding: 1.5%;
+    /* background-color: rgb(234, 236, 240); */
+    /* background-color: white; */
+    border: none;
+    border-radius: 10px;
+    margin: 1.5%;
+    /* color: rgb(101, 142, 212); */
+    box-shadow: 3px 3px 3px rgb(170, 170, 170);
+    font-size: 85%;
+    font-weight: bold;
+
+    background: rgb(101, 142, 212);
+    color: rgb(234, 236, 240);
+}
+
+/* .list button:hover {
+    background: rgb(101, 142, 212);
+    color: rgb(234, 236, 240);
+} */
