@@ -43,8 +43,6 @@ function App() {
                     }
 
                     // 환율 정보가 있을 경우 (평일)
-                    isWeekend = false;
-
                     const euro = data[8].ttb.replace(",", "");
                     const dollor = data[22].ttb.replace(",", "");
                     setEuro(euro)
